@@ -1,0 +1,32 @@
+{
+  "name": "@rororo9/ajs",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rororo9/ajs.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "author": "Rororo9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rororo9/ajs/issues"
+  },
+  "homepage": "https://github.com/Rororo9/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "description": ""
+}
