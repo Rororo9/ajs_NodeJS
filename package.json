@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Rororo9/ajs.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Rororo9",
   "license": "ISC",
@@ -28,5 +28,8 @@
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@rororo9/ajs": "^1.0.1"
+  }
 }
